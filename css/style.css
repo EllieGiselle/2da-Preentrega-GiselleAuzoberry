@@ -262,6 +262,20 @@ hr {
     }
 }
 @media screen and (max-width: 655px){
+    .bienvenida h1 {
+        color:#a1b2c4;
+        font-size: 40px;
+    }
+    .bienvenida h3 {
+        color:#151419;
+        font-size: 15px;
+    }
+    .bienvenida p{
+        background-color: #151419d0;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+    }
     .loguito{
         margin-right: 10px;
     }
