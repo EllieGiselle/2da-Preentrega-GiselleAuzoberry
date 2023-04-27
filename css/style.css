@@ -12,6 +12,7 @@
 body {
     background-color: #151419;
     font-weight: 200;
+    min-height: 100vh;
 }
 
 #active {
@@ -180,14 +181,22 @@ nav ul li:hover {
 }
 
 footer {
-    margin: 20px 0px 20px 50px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
     display: flex;
     align-items: center;
     color: #e6d7c4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e6d7c4;
 }
 
 .loguito {
     margin-right: 30px;
+    height: 50px;
 }
 
 .redes {
@@ -298,6 +307,85 @@ hr {
         display: block;
         font-size: 10px;
     }
+}
+#page_contacto{
+    background-image: url('../img/fondo\ contacto.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+#nav_contacto{
+    background-color: hsla(252, 11%, 9%, 0);
+}
+.foto-contacto-responsive{
+    display: none;
+}
+.primera{
+    background-color: #e6d7c4da;
+    border-radius: 20px;
+    box-shadow: 3px 3px 40px -1px #6d665c59 ;
+    color: #151419;
+    padding: 30px;
+    font-weight: 400;
+    width: 60%; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+}
+.segunda{
+    margin: 250px 0 0 50px;
+    font-weight: 400;
+}
+.segunda i{
+    padding-right: 10px;
+}
+.btn_mio{
+    background-color: #a1b2c4;
+}
+.footer .info{
+    color: #151419;
 
 }
-   
+@media screen and (max-width: 860px){
+    #page_contacto{
+        background-image: none;
+       background-color: #151419;
+    }
+    .primera{
+        background-color: #e6d7c4;
+        z-index: 10;
+    }
+      .primera .form-control{
+        font-size: 10px;
+    }
+    .segunda{
+        height: fit-content;
+        padding: 20px;
+        margin: 0;
+        border: 2px solid #e6d7c4;
+        color: #e6d7c4;
+        font-weight: 200;
+    }
+    .foto-contacto-responsive{
+        display: flex;
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        height: 300px;
+        border-radius: 20px;
+    }
+    footer{
+        padding-left: 20px;
+    }
+    .info{
+        color: #e6d7c4;
+    }
+}
+@media screen and (max-width: 655px){
+    .primera{
+        margin-left: 20px;
+        width: 20rem;
+    }
+    .foto-contacto-responsive{
+        display: none;
+    }
+}
