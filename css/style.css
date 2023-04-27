@@ -410,3 +410,74 @@ hr {
         display: none;
     }
 }
+
+.sobre_mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6d7c4;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.foto_perfil_about img{
+    border: 5px solid #e6d7c4;
+}
+.presentacion_about{
+    width: 60%;
+    text-align: center;
+}
+.presentacion_about h3{
+    padding-bottom: 30px;
+}
+.educacion_about{
+    color: #e6d7c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 10px;
+}
+.educacion_about h3{
+    padding-bottom: 10px;
+}
+.educacion_about .edu_row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.edu_column .edu_box{
+    border-left: 3px solid #a1b2c4;
+}
+.edu_box .contenido{
+    position: relative;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #e6d7c4;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.edu_box .contenido::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -33px;
+    width: 20px;
+    height: 20px;
+    background: #a1b2c4;
+    border-radius: 50%;
+}
+.contenido .año{
+    font-size: 15px;
+    font-weight: 400;
+    color: #a1b2c4;
+    padding-bottom: 5px;
+}
+.contenido .año i{
+    padding-right: 5px;
+}
+.contenido p{
+    margin-bottom: 0;
+}

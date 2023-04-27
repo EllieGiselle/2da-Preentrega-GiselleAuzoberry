@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Sobre Mi</title>
@@ -34,33 +34,74 @@
     </header>
 
     <main>
-        <section>
+        <section class="sobre_mi">
             <!--mini biografia y descripción con foto-->
-            <h1>Sobre Mi</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit quas minima repellat</p>
-            <img src="https://i.pinimg.com/564x/ab/c4/f3/abc4f32ac9d76c31b06afb83f0767388.jpg" alt="chica diseñando">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt suscipit quas minima repellat</p>
+            <div class="titulo_about">
+                <h1>Sobre Mi</h1>
+            </div>
+            <div class="foto_perfil_about">
+                <img src="https://i.pinimg.com/564x/ab/c4/f3/abc4f32ac9d76c31b06afb83f0767388.jpg" alt="chica diseñando"
+                    class="foto_about">
+            </div>
+            <div class="presentacion_about">
+                <h2>Diseñadora & Desarrolladora... en construcción!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur deleniti
+                    voluptatibus? Delectus accusantium quidem aliquam nobis saepe omnis obcaecati perspiciatis
+                    laboriosam quod, sit voluptatum similique animi ea neque ab ipsum quis? Natus reiciendis incidunt
+                    tenetur maxime recusandae aliquam cum commodi ea similique! Eaque, quis vero praesentium mollitia
+                    voluptas esse?</p>
+            </div>
+            <div class="intereses_about">
+                <!--moodboard con intereses e info personal-->
+                <img src="https://i.pinimg.com/564x/0b/0c/bd/0b0cbd7488f9afb6c81c6617a3475478.jpg" alt="moodboard">
+            </div>
+        </main>
         </section>
-        <section>
-            <h3>Habilidades</h3>
-            <ul>
-                <li>UX/IU</li>
-                <li>Diseño Gráfico</li>
-                <li>Branding</li>
-                <li>Community Manager</li>
-                <li>HTML</li>
-            </ul>
+        <section class="educacion_about">
+            <h3> Educación</h3>
+            <div class="edu_row">
+                <div class="edu_column">
+                    <div class="edu_box">
+                        <div class="contenido">
+                            <div class="año"> <i class="bi bi-calendar3"></i>2010 - 2016</div>
+                            <h5>Diseño Gráfico</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis quaerat
+                                delectus aliquam quam amet.</p>
+                        </div>
+                        <div class="contenido">
+                            <div class="año"> <i class="bi bi-calendar3"></i>2022 - 2023</div>
+                            <h5>Branding</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis quaerat
+                                delectus aliquam quam amet.</p>
+                        </div>
+                        <div class="contenido">
+                            <div class="año"> <i class="bi bi-calendar3"></i>2022 - 2023</div>
+                            <h5>Diseño UX/UI</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis quaerat
+                                delectus aliquam quam amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="edu_column">
+                    <div class="edu_box">
+                        <div class="contenido">
+                            <div class="año"> <i class="bi bi-calendar3"></i>2023</div>
+                            <h5>Community Manager</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis quaerat
+                                delectus aliquam quam amet.</p>
+                        </div>
+                        <div class="contenido">
+                            <div class="año"> <i class="bi bi-calendar3"></i>2023 - </div>
+                            <h5>Desarrollo Front End</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nobis quaerat
+                                delectus aliquam quam amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <div>
-            <!--moodboard con intereses e info personal-->
-            <img src="https://i.pinimg.com/564x/0b/0c/bd/0b0cbd7488f9afb6c81c6617a3475478.jpg" alt="moodboard">
-            <p><em>Canción Favorita</em></p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tIDxdXRvtLg"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </div>
-    </main>
+
+  
 
     <footer class="footer_about">
 
