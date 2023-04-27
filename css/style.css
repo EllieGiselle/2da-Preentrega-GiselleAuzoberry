@@ -59,6 +59,7 @@ nav .idioma li {
 
 nav ul li a {
     color: #e6d7c4;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -316,6 +317,12 @@ hr {
 #nav_contacto{
     background-color: hsla(252, 11%, 9%, 0);
 }
+#nav_contacto ul li a{
+    color: #151419;
+}
+#nav_contacto .idioma li{
+    color: #151419;
+}
 .foto-contacto-responsive{
     display: none;
 }
@@ -341,18 +348,22 @@ hr {
 .btn_mio{
     background-color: #a1b2c4;
 }
-.footer .info{
+.footer_contacto{
     color: #151419;
-
+    border-top: 1px solid #151419;
 }
+.footer_contacto .redes i{
+    color: #151419;
+}
+
 @media screen and (max-width: 860px){
     #page_contacto{
-        background-image: none;
+       background-image: none;
        background-color: #151419;
     }
     .primera{
         background-color: #e6d7c4;
-        z-index: 10;
+        z-index: 1;
     }
       .primera .form-control{
         font-size: 10px;
@@ -372,6 +383,13 @@ hr {
         right: 5%;
         height: 300px;
         border-radius: 20px;
+    }
+    .footer_contacto{
+        color: #e6d7c4;
+        border-top: 1px solid #e6d7c4;
+    }
+    .footer_contacto .redes i{
+        color: #e6d7c4;
     }
     footer{
         padding-left: 20px;
