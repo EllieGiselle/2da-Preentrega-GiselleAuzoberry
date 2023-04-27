@@ -13,6 +13,9 @@ body {
     background-color: #151419;
     font-weight: 200;
     min-height: 100vh;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 110px;
 }
 
 #active {
