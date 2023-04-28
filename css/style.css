@@ -17,23 +17,20 @@ body {
     min-height: 100vh;
     padding-bottom: 110px;
 }
-
 #active {
     font-weight: 600;
     font-size: 20px;
     color: #a1b2c4;
     transform: none;
 }
-
 #español {
     font-weight: 600;
     transform: none;
 }
-
 header {
     display: flex;
+    padding: 20px 50px;
 }
-
 nav {
     background-color: #151419;
     display: flex;
@@ -43,51 +40,41 @@ nav {
     align-items: center;
     padding-right: 50px;
 }
-
 .logo {
     height: 100px;
-    margin: 5px 0 5px 50px;
-    padding-top: 4px;
 }
-
 nav ul li {
     display: inline-block;
     margin: 0 10px;
     color: #e6d7c4;
 }
-
 nav .idioma li {
     margin: 5px;
 }
-
 nav ul li a {
     color: #e6d7c4;
     text-decoration: none;
 }
-
 nav a:hover {
     color: #a1b2c4;
 }
-
 nav ul li:hover {
     transform: scale(1.1)
 }
-
 .checkbtn {
     color: #e6d7c4;
     font-size: 25px;
     cursor: pointer;
     display: none;
 }
-
 #check {
     display: none;
 }
-
 @media screen and (max-width: 860px) {
+    header {
+        padding: 10px 20px;
+    }
     .logo {
-        padding-top: 20px;
-        padding-left: 0;
         height: 90px;
     }
 
@@ -138,7 +125,6 @@ nav ul li:hover {
     background-position: center;
 
 }
-
 .bienvenida {
     color: #151419;
     max-width: 50rem;
@@ -149,26 +135,22 @@ nav ul li:hover {
     font-weight: 600;
     color: #e6d7c4;
 }
-
 .bienvenida h3 {
     font-size: 25px;
     font-weight: 600;
     color: #a1b2c4;
 }
-
 .bienvenida p {
     font-weight: 400;
     color: #e6d7c4;
     margin: 2rem 0 4rem;
 }
-
 .bienvenida .contacto {
     width: 345px;
     height: 50px;
     display: flex;
     justify-content: space-between;
 }
-
 .contacto a {
     display: inline-flex;
     justify-content: center;
@@ -183,7 +165,6 @@ nav ul li:hover {
     font-size: 15px;
     letter-spacing: 1px;
 }
-
 footer {
     margin: 0;
     padding-top: 10px;
@@ -197,22 +178,18 @@ footer {
     width: 100%;
     border-top: 1px solid #e6d7c4;
 }
-
 .loguito {
     margin-right: 30px;
     height: 50px;
 }
-
 .redes {
     display: flex;
 }
-
 .redes a {
     color: #e6d7c4;
     font-size: 20px;
     padding: 20px;
 }
-
 #mail {
     align-items: center;
     padding: 20px;
@@ -225,11 +202,6 @@ footer {
     right: 0;
     margin-right: 50px;
 }
-
-hr {
-    color: #e6d7c4;
-}
-
 @media screen and (max-width: 860px) {
     .inicio {
         background: url('../img/fondo.jpg') no-repeat;
@@ -261,12 +233,10 @@ hr {
         font-size: 15px;
         padding: 5px;
     }
-    
     #mail {
         padding: 5px;
         font-size: 15px;
-    }
-    
+    }   
     .info {
         position: absolute;
         right: 0;
@@ -312,6 +282,7 @@ hr {
         font-size: 10px;
     }
 }
+
 #page_contacto{
     background-image: url('../img/fondo\ contacto.jpg');
     background-size: cover;
@@ -326,9 +297,6 @@ hr {
 #nav_contacto .idioma li{
     color: #151419;
 }
-.foto-contacto-responsive{
-    display: none;
-}
 .primera{
     background-color: #e6d7c4da;
     border-radius: 20px;
@@ -338,8 +306,7 @@ hr {
     font-weight: 400;
     width: 60%; 
     margin-top: 80px;
-    margin-bottom: 80px;
-   
+    margin-bottom: 80px;  
 }
 .segunda{
     margin: 250px 0 0 50px;
@@ -358,34 +325,36 @@ hr {
 .footer_contacto .redes i{
     color: #151419;
 }
-
+@media screen and (max-width: 992px){
+    .primera{
+        margin-bottom: 20px;
+    }
+    .segunda{
+        margin-top: 20px;
+    }
+}
 @media screen and (max-width: 860px){
     #page_contacto{
        background-image: none;
        background-color: #151419;
     }
     .primera{
+       width: 435px;
         background-color: #e6d7c4;
-        z-index: 1;
     }
-      .primera .form-control{
+    .primera .form-control{
         font-size: 10px;
     }
     .segunda{
+        max-width: 435px;
+        position: absolute;
+        bottom: 10rem;
         height: fit-content;
         padding: 20px;
         margin: 0;
         border: 2px solid #e6d7c4;
         color: #e6d7c4;
         font-weight: 200;
-    }
-    .foto-contacto-responsive{
-        display: flex;
-        position: absolute;
-        top: 20%;
-        right: 5%;
-        height: 300px;
-        border-radius: 20px;
     }
     .footer_contacto{
         color: #e6d7c4;
@@ -401,15 +370,7 @@ hr {
         color: #e6d7c4;
     }
 }
-@media screen and (max-width: 655px){
-    .primera{
-        margin-left: 20px;
-        width: 20rem;
-    }
-    .foto-contacto-responsive{
-        display: none;
-    }
-}
+
 .contenedor_about{
     display: flex;
     align-items: center;
