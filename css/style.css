@@ -517,3 +517,24 @@ footer {
     color: #151419;
     text-decoration: none;
 }
+
+.ejemplo{
+    color: #e6d7c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ejemplo_descripcion p{
+    margin-top: 200px;
+    font-size: 50px;
+    color: #e6d7c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ejemplo_salir a{
+    color: #e6d7c4;
+    text-decoration: none;
+    margin: 10px;
+}
