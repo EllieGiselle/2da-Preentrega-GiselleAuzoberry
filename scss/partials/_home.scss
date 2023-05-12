@@ -1,0 +1,109 @@
+.inicio {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    background: url('../img/fondo3.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bienvenida {
+    color: #151419;
+    max-width: 50rem;
+}
+
+.bienvenida h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #e6d7c4;
+}
+.bienvenida h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #a1b2c4;
+}
+.bienvenida p {
+    font-weight: 400;
+    color: #e6d7c4;
+    margin: 2rem 0 4rem;
+}
+.bienvenida .contacto {
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacto a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #e6d7c4;
+    border: 2px solid #a1b2c4;
+    border-radius: 10px;
+    color: #151419;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 860px) {
+    .inicio {
+        background: url('../img/fondo.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bienvenida h1 {
+        color:#a1b2c4;
+    }
+    .bienvenida h3 {
+        color:#151419;
+    }
+    .bienvenida p{
+        background-color: #151419d0;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .contacto a {
+        background:#e6d7c4;
+        border: 0.5px solid #151419;
+        border-radius: 10px;
+        color:#151419;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .redes a {
+        font-size: 15px;
+        padding: 5px;
+    }
+    #mail {
+        padding: 5px;
+        font-size: 15px;
+    }   
+    .info {
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 655px){
+    .bienvenida h1 {
+        color:#a1b2c4;
+        font-size: 40px;
+    }
+    .bienvenida h3 {
+        color:#151419;
+        font-size: 15px;
+    }
+    .bienvenida p{
+        background-color: #151419d0;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 13px;
+    }
+}    

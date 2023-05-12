@@ -1,0 +1,84 @@
+#page_contacto{
+    background-image: url('../img/fondo\ contacto.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+#nav_contacto{
+    background-color: hsla(252, 11%, 9%, 0);
+}
+#nav_contacto ul li a{
+    color: #151419;
+}
+#nav_contacto .idioma li{
+    color: #151419;
+}
+.primera{
+    background-color: #e6d7c4da;
+    border-radius: 20px;
+    box-shadow: 3px 3px 40px -1px #6d665c59 ;
+    color: #151419;
+    padding: 30px;
+    font-weight: 400;
+    width: 60%; 
+    margin-top: 80px;
+    margin-bottom: 80px;  
+}
+.segunda{
+    margin: 250px 0 0 50px;
+    font-weight: 400;
+}
+.segunda i{
+    padding-right: 10px;
+}
+.btn_mio{
+    background-color: #a1b2c4;
+}
+.footer_contacto{
+    color: #151419;
+    border-top: 1px solid #151419;
+}
+.footer_contacto .redes i{
+    color: #151419;
+}
+@media screen and (max-width: 992px){
+    .primera{
+        margin-bottom: 20px;
+    }
+    .segunda{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 860px){
+    #page_contacto{
+       background-image: none;
+       background-color: #151419;
+    }
+    .primera{
+       width: 435px;
+        background-color: #e6d7c4;
+    }
+    .primera .form-control{
+        font-size: 10px;
+    }
+    .segunda{
+        max-width: 435px;
+        position: absolute;
+        bottom: 10rem;
+        height: fit-content;
+        padding: 20px;
+        margin: 0;
+        border: 2px solid #e6d7c4;
+        color: #e6d7c4;
+        font-weight: 200;
+    }
+    .footer_contacto{
+        color: #e6d7c4;
+        border-top: 1px solid #e6d7c4;
+    }
+    .footer_contacto .redes i{
+        color: #e6d7c4;
+    }
+    .info{
+        color: #e6d7c4;
+    }
+}

@@ -1,0 +1,84 @@
+footer {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    color: #e6d7c4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e6d7c4;
+
+    .loguito {
+        margin-right: 30px;
+        height: 50px;
+    }
+
+    .redes {
+        display: flex;
+        a {
+            color: #e6d7c4;
+            font-size: 20px;
+            padding: 20px;
+        }
+        #mail {
+            align-items: center;
+            padding: 20px;
+        }
+        #mail_icono{
+            display: none;
+        }
+    }
+    .info {
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
+    }
+}
+
+
+@media screen and (max-width: 860px){
+    footer{
+        padding-left: 20px;
+    }
+    .redes a {
+        font-size: 15px;
+        padding: 5px;
+    }
+    #mail {
+        padding: 5px;
+        font-size: 15px;
+    }   
+    .info {
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 655px){
+    .loguito{
+        margin-right: 10px;
+    }
+    .redes a {
+        font-size: 10px;
+        padding: 5px;
+    }
+    
+    #mail {
+        display: none;
+    }
+    
+    .info {
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+        font-size: 10px;
+    }
+    #mail_icono{
+        display: block;
+        font-size: 10px;
+    }
+}
