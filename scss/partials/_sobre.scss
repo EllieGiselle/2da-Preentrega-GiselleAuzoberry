@@ -31,9 +31,7 @@
 }
 .educacion_about{
     color: #e6d7c4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include position-flex(center,center);
     flex-direction: column;
     min-height: auto;
     padding-bottom: 10px;
@@ -89,9 +87,7 @@
 
 .skills_about{
     color: #e6d7c4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include position-flex(center,center);
     flex-direction: column;
 }
 
