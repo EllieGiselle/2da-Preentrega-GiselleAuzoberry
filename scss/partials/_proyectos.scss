@@ -64,8 +64,19 @@
         }
      }
 }
-
 .portfolio .port_row .port_tp:hover .port_info{
     transform: scale(1);
     visibility: visible;
+}
+
+@media screen and (max-width: 560px){
+    .portfolio{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        .port_row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
 }
