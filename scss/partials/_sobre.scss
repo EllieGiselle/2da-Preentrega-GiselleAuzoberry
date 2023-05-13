@@ -86,9 +86,29 @@
 }
 
 .skills_about{
-    color: #e6d7c4;
-    @include position-flex(center,center);
-    flex-direction: column;
+        color: #e6d7c4;
+        @include position-flex(center,center);
+        flex-direction: column;
+        min-height: auto;
+        padding-bottom: 10px;
+        h3{
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        .skills_row{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .contenido{
+            position: relative;
+            margin-left: 20px;
+            padding: 10px;
+            border: 1px solid #e6d7c4;
+            border-radius: 20px;
+            margin-bottom: 10px;
+        }
+
 }
 
 @media screen and (max-width: 560px) {

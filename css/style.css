@@ -300,6 +300,25 @@ header nav .idioma li {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: auto;
+  padding-bottom: 10px;
+}
+.skills_about h3, .ejemplo_descripcion p h3, .ejemplo h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.skills_about .skills_row, .ejemplo_descripcion p .skills_row, .ejemplo .skills_row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.skills_about .contenido, .ejemplo_descripcion p .contenido, .ejemplo .contenido {
+  position: relative;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #e6d7c4;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 560px) {
