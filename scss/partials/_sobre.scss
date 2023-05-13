@@ -1,3 +1,6 @@
+// USO DE MIXIN -- EXTEND USADO EN PARTIAL _EJEMPLO1
+
+
 @mixin position-flex($justify, $aling) {
     display: flex;
     justify-content: $justify;
