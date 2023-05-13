@@ -432,6 +432,12 @@ header nav .idioma li {
     background-image: none;
     background-color: #151419;
   }
+  #nav_contacto a {
+    color: #e6d7c4;
+  }
+  #nav_contacto .idioma li {
+    color: #e6d7c4;
+  }
   .primera {
     width: 435px;
     background-color: #e6d7c4;
