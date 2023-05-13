@@ -1,17 +1,10 @@
 .ejemplo{
-    color: #e6d7c4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   @extend .skills_about;
 }
 .ejemplo_descripcion p{
+    @extend .skills_about;
     margin-top: 200px;
     font-size: 50px;
-    color: #e6d7c4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .ejemplo_salir a{
     color: #e6d7c4;

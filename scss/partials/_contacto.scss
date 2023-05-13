@@ -3,15 +3,19 @@
     background-size: cover;
     background-attachment:fixed;
 }
+
 #nav_contacto{
     background-color: hsla(252, 11%, 9%, 0);
+
+    a{
+        color: #151419;
+    }
+
+    .idioma li{
+            color: #151419;
+    }
 }
-#nav_contacto ul li a{
-    color: #151419;
-}
-#nav_contacto .idioma li{
-    color: #151419;
-}
+
 .primera{
     background-color: #e6d7c4da;
     border-radius: 20px;
@@ -26,20 +30,22 @@
 .segunda{
     margin: 250px 0 0 50px;
     font-weight: 400;
+
+    i{
+        padding-right: 10px;
+    }
 }
-.segunda i{
-    padding-right: 10px;
-}
-.btn_mio{
-    background-color: #a1b2c4;
-}
+
+
 .footer_contacto{
     color: #151419;
     border-top: 1px solid #151419;
-}
-.footer_contacto .redes i{
+
+    .redes i{
     color: #151419;
+    }
 }
+
 @media screen and (max-width: 992px){
     .primera{
         margin-bottom: 20px;
@@ -56,9 +62,10 @@
     .primera{
        width: 435px;
         background-color: #e6d7c4;
-    }
-    .primera .form-control{
-        font-size: 10px;
+
+        .form-control{
+            font-size: 10px;
+        }
     }
     .segunda{
         max-width: 435px;
@@ -74,11 +81,13 @@
     .footer_contacto{
         color: #e6d7c4;
         border-top: 1px solid #e6d7c4;
-    }
-    .footer_contacto .redes i{
-        color: #e6d7c4;
-    }
-    .info{
-        color: #e6d7c4;
+
+        .redes i{
+            color: #e6d7c4;
+        }
+
+        .info{
+            color: #e6d7c4;
+        }
     }
 }

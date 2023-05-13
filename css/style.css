@@ -291,7 +291,7 @@ header nav .idioma li {
   margin-bottom: 0;
 }
 
-.skills_about {
+.skills_about, .ejemplo_descripcion p, .ejemplo {
   color: #e6d7c4;
   display: flex;
   justify-content: center;
@@ -364,21 +364,9 @@ header nav .idioma li {
   visibility: visible;
 }
 
-.ejemplo {
-  color: #e6d7c4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .ejemplo_descripcion p {
   margin-top: 200px;
   font-size: 50px;
-  color: #e6d7c4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .ejemplo_salir a {
@@ -396,11 +384,9 @@ header nav .idioma li {
 #nav_contacto {
   background-color: hsla(252, 11%, 9%, 0);
 }
-
-#nav_contacto ul li a {
+#nav_contacto a {
   color: #151419;
 }
-
 #nav_contacto .idioma li {
   color: #151419;
 }
@@ -421,20 +407,14 @@ header nav .idioma li {
   margin: 250px 0 0 50px;
   font-weight: 400;
 }
-
 .segunda i {
   padding-right: 10px;
-}
-
-.btn_mio {
-  background-color: #a1b2c4;
 }
 
 .footer_contacto {
   color: #151419;
   border-top: 1px solid #151419;
 }
-
 .footer_contacto .redes i {
   color: #151419;
 }
@@ -477,7 +457,7 @@ header nav .idioma li {
   .footer_contacto .redes i {
     color: #e6d7c4;
   }
-  .info {
+  .footer_contacto .info {
     color: #e6d7c4;
   }
 }
