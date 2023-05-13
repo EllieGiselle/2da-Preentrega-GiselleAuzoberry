@@ -218,8 +218,8 @@ header nav .idioma li {
 }
 .contenedor_about {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   color: #e6d7c4;
   width: 70%;
   margin: 20px auto;

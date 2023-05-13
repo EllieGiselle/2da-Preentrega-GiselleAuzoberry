@@ -1,7 +1,11 @@
-.contenedor_about{
+@mixin position-flex($justify, $aling) {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: $justify;
+	align-items: $aling;
+}
+
+.contenedor_about{
+    @include position-flex (space-around, center);
     color: #e6d7c4;
     width: 70% ;
     margin: 20px auto;
