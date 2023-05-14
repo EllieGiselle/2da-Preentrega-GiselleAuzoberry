@@ -8,24 +8,29 @@
     background-position: center;
 
     .bienvenida {
-        color: #151419;
+        color: $color-principal;
         max-width: 50rem;
     
         h1 {
             font-size: 50px;
             font-weight: 600;
-            color: #e6d7c4;
+            color: $color-secundario;
         }
 
         h3 {
             font-size: 25px;
             font-weight: 600;
-            color: #a1b2c4;
+            color: $color-acento;
+        }
+        h4 {
+            font-size: 20px;
+            color: $color-secundario;
+            margin-top: 30px;
         }
 
         p {
             font-weight: 400;
-            color: #e6d7c4;
+            color: $color-secundario;
             margin: 2rem 0 4rem;
         }
 
@@ -41,10 +46,10 @@
                 align-items: center;
                 width: 150px;
                 height: 100%;
-                background: #e6d7c4;
-                border: 2px solid #a1b2c4;
+                background: $color-secundario;
+                border: 2px solid $color-acento;
                 border-radius: 10px;
-                color: #151419;
+                color: $color-principal;
                 font-weight: 400;
                 font-size: 15px;
                 letter-spacing: 1px;
@@ -61,11 +66,11 @@
         background-position: center;
 
         h1 {
-            color:#a1b2c4;
+            color:$color-acento;
         }
 
         h3 {
-            color:#151419;
+            color: $color-principal;
         }
 
         p{
@@ -74,10 +79,10 @@
             padding: 10px;
         }
         a {
-            background:#e6d7c4;
-            border: 0.5px solid #151419;
+            background:$color-secundario;
+            border: 0.5px solid  $color-principal;
             border-radius: 10px;
-            color:#151419;
+            color: $color-principal;
             font-weight: 400;
             font-size: 15px;
             letter-spacing: 1px;
@@ -104,11 +109,11 @@
 @media screen and (max-width: 655px){
     .inicio {
         h1 {
-            color:#a1b2c4;
+            color:$color-acento;
             font-size: 40px;
         }
         h3 {
-            color:#151419;
+            color: $color-principal;
             font-size: 15px;
         }
         p{

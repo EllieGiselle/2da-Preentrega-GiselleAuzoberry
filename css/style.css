@@ -133,6 +133,11 @@ header nav .idioma li {
   font-weight: 600;
   color: #a1b2c4;
 }
+.inicio .bienvenida h4 {
+  font-size: 20px;
+  color: #e6d7c4;
+  margin-top: 30px;
+}
 .inicio .bienvenida p {
   font-weight: 400;
   color: #e6d7c4;
