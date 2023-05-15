@@ -32,7 +32,7 @@
         }
     }
 }
-.educacion_about{
+.educacion_about, .skills_about{
     color: #e6d7c4;
     @include position-flex(center,center);
     flex-direction: column;
@@ -43,12 +43,12 @@
         padding-top: 30px;
         padding-bottom: 10px;
     }
-    .edu_row{
+    .edu_row, .skills_row{
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
 
-        .edu_box{
+        .edu_box {
             border-left: 3px solid #a1b2c4;
 
             .contenido{
@@ -85,33 +85,16 @@
                 }
             }
         }
+        .skills_box{
+            @extend .edu_box;
+            border-left: none;
+            .contenido {
+                &::before{
+                display: none;
+                }
+            }
+        }
     }
-}
-
-.skills_about{
-        color: #e6d7c4;
-        @include position-flex(center,center);
-        flex-direction: column;
-        min-height: auto;
-        padding-bottom: 10px;
-        h3{
-            padding-top: 30px;
-            padding-bottom: 10px;
-        }
-        .skills_row{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-        .contenido{
-            position: relative;
-            margin-left: 20px;
-            padding: 10px;
-            border: 1px solid #e6d7c4;
-            border-radius: 20px;
-            margin-bottom: 10px;
-        }
-
 }
 
 @media screen and (max-width: 560px) {
@@ -144,7 +127,7 @@
             padding: 10px;
             margin-bottom: 20px;
         }
-        .edu_row{
+        .edu_row {
             gap: 1px;
         }
     }
