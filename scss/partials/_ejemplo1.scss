@@ -3,11 +3,24 @@
 .ejemplo{
    @extend .skills_about;
 }
-.ejemplo_descripcion p{
-    @extend .skills_about;
-    margin-top: 100px;
-    font-size: 50px;
+.ejemplo_descripcion {
+    h2{
+    color: $color-secundario;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 40px;
+    }
+    .brandbook_img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+       
 }
+
 .ejemplo_img{
     display: flex;
     align-items: center;
@@ -18,8 +31,9 @@
 }
 .ejemplo_salir {
     margin-top: 100px;
+    margin-bottom: 30px;
     a{
-        color: #e6d7c4;
+        color: $color-secundario;
         text-decoration: none;
         border: 1px solid $color-acento;
         border-radius: 10px;
@@ -37,10 +51,13 @@
     .ejemplo_img img{
         height: 300px;
     }
-    .ejemplo_descripcion p{
+    .ejemplo_descripcion h2{
         margin: 10px;
         margin-top: 30px;
         font-size: 25px;
+    }
+    .brandbook_img img{
+        width: 420px ;
     }
 }
 

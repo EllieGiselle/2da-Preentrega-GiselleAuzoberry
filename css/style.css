@@ -247,7 +247,7 @@ header nav .idioma li {
   letter-spacing: 1px;
 }
 
-.educacion_about, .skills_about, .ejemplo_descripcion p, .ejemplo {
+.educacion_about, .skills_about, .ejemplo {
   color: #e6d7c4;
   display: flex;
   justify-content: center;
@@ -256,19 +256,19 @@ header nav .idioma li {
   min-height: auto;
   padding-bottom: 10px;
 }
-.educacion_about h3, .skills_about h3, .ejemplo_descripcion p h3, .ejemplo h3 {
+.educacion_about h3, .skills_about h3, .ejemplo h3 {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-.educacion_about .edu_row, .educacion_about .skills_row, .skills_about .edu_row, .ejemplo_descripcion p .edu_row, .ejemplo .edu_row, .skills_about .skills_row, .ejemplo_descripcion p .skills_row, .ejemplo .skills_row {
+.educacion_about .edu_row, .educacion_about .skills_row, .skills_about .edu_row, .ejemplo .edu_row, .skills_about .skills_row, .ejemplo .skills_row {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.educacion_about .edu_row .edu_box, .educacion_about .edu_row .skills_box, .educacion_about .skills_row .edu_box, .educacion_about .skills_row .skills_box, .skills_about .edu_row .edu_box, .ejemplo_descripcion p .edu_row .edu_box, .ejemplo .edu_row .edu_box, .skills_about .edu_row .skills_box, .ejemplo_descripcion p .edu_row .skills_box, .ejemplo .edu_row .skills_box, .skills_about .skills_row .edu_box, .ejemplo_descripcion p .skills_row .edu_box, .ejemplo .skills_row .edu_box, .skills_about .skills_row .skills_box, .ejemplo_descripcion p .skills_row .skills_box, .ejemplo .skills_row .skills_box {
+.educacion_about .edu_row .edu_box, .educacion_about .edu_row .skills_box, .educacion_about .skills_row .edu_box, .educacion_about .skills_row .skills_box, .skills_about .edu_row .edu_box, .ejemplo .edu_row .edu_box, .skills_about .edu_row .skills_box, .ejemplo .edu_row .skills_box, .skills_about .skills_row .edu_box, .ejemplo .skills_row .edu_box, .skills_about .skills_row .skills_box, .ejemplo .skills_row .skills_box {
   border-left: 3px solid #a1b2c4;
 }
-.educacion_about .edu_row .edu_box .contenido, .educacion_about .edu_row .skills_box .contenido, .educacion_about .skills_row .edu_box .contenido, .educacion_about .skills_row .skills_box .contenido, .skills_about .edu_row .edu_box .contenido, .ejemplo_descripcion p .edu_row .edu_box .contenido, .ejemplo .edu_row .edu_box .contenido, .skills_about .edu_row .skills_box .contenido, .ejemplo_descripcion p .edu_row .skills_box .contenido, .ejemplo .edu_row .skills_box .contenido, .skills_about .skills_row .edu_box .contenido, .ejemplo_descripcion p .skills_row .edu_box .contenido, .ejemplo .skills_row .edu_box .contenido, .skills_about .skills_row .skills_box .contenido, .ejemplo_descripcion p .skills_row .skills_box .contenido, .ejemplo .skills_row .skills_box .contenido {
+.educacion_about .edu_row .edu_box .contenido, .educacion_about .edu_row .skills_box .contenido, .educacion_about .skills_row .edu_box .contenido, .educacion_about .skills_row .skills_box .contenido, .skills_about .edu_row .edu_box .contenido, .ejemplo .edu_row .edu_box .contenido, .skills_about .edu_row .skills_box .contenido, .ejemplo .edu_row .skills_box .contenido, .skills_about .skills_row .edu_box .contenido, .ejemplo .skills_row .edu_box .contenido, .skills_about .skills_row .skills_box .contenido, .ejemplo .skills_row .skills_box .contenido {
   position: relative;
   margin-left: 20px;
   padding: 10px;
@@ -276,7 +276,7 @@ header nav .idioma li {
   border-radius: 20px;
   margin-bottom: 10px;
 }
-.educacion_about .edu_row .edu_box .contenido::before, .educacion_about .edu_row .skills_box .contenido::before, .educacion_about .skills_row .edu_box .contenido::before, .educacion_about .skills_row .skills_box .contenido::before, .skills_about .edu_row .edu_box .contenido::before, .ejemplo_descripcion p .edu_row .edu_box .contenido::before, .ejemplo .edu_row .edu_box .contenido::before, .skills_about .edu_row .skills_box .contenido::before, .ejemplo_descripcion p .edu_row .skills_box .contenido::before, .ejemplo .edu_row .skills_box .contenido::before, .skills_about .skills_row .edu_box .contenido::before, .ejemplo_descripcion p .skills_row .edu_box .contenido::before, .ejemplo .skills_row .edu_box .contenido::before, .skills_about .skills_row .skills_box .contenido::before, .ejemplo_descripcion p .skills_row .skills_box .contenido::before, .ejemplo .skills_row .skills_box .contenido::before {
+.educacion_about .edu_row .edu_box .contenido::before, .educacion_about .edu_row .skills_box .contenido::before, .educacion_about .skills_row .edu_box .contenido::before, .educacion_about .skills_row .skills_box .contenido::before, .skills_about .edu_row .edu_box .contenido::before, .ejemplo .edu_row .edu_box .contenido::before, .skills_about .edu_row .skills_box .contenido::before, .ejemplo .edu_row .skills_box .contenido::before, .skills_about .skills_row .edu_box .contenido::before, .ejemplo .skills_row .edu_box .contenido::before, .skills_about .skills_row .skills_box .contenido::before, .ejemplo .skills_row .skills_box .contenido::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -286,22 +286,22 @@ header nav .idioma li {
   background: #a1b2c4;
   border-radius: 50%;
 }
-.educacion_about .edu_row .edu_box .contenido .año, .educacion_about .edu_row .skills_box .contenido .año, .educacion_about .skills_row .edu_box .contenido .año, .educacion_about .skills_row .skills_box .contenido .año, .skills_about .edu_row .edu_box .contenido .año, .ejemplo_descripcion p .edu_row .edu_box .contenido .año, .ejemplo .edu_row .edu_box .contenido .año, .skills_about .edu_row .skills_box .contenido .año, .ejemplo_descripcion p .edu_row .skills_box .contenido .año, .ejemplo .edu_row .skills_box .contenido .año, .skills_about .skills_row .edu_box .contenido .año, .ejemplo_descripcion p .skills_row .edu_box .contenido .año, .ejemplo .skills_row .edu_box .contenido .año, .skills_about .skills_row .skills_box .contenido .año, .ejemplo_descripcion p .skills_row .skills_box .contenido .año, .ejemplo .skills_row .skills_box .contenido .año {
+.educacion_about .edu_row .edu_box .contenido .año, .educacion_about .edu_row .skills_box .contenido .año, .educacion_about .skills_row .edu_box .contenido .año, .educacion_about .skills_row .skills_box .contenido .año, .skills_about .edu_row .edu_box .contenido .año, .ejemplo .edu_row .edu_box .contenido .año, .skills_about .edu_row .skills_box .contenido .año, .ejemplo .edu_row .skills_box .contenido .año, .skills_about .skills_row .edu_box .contenido .año, .ejemplo .skills_row .edu_box .contenido .año, .skills_about .skills_row .skills_box .contenido .año, .ejemplo .skills_row .skills_box .contenido .año {
   font-size: 15px;
   font-weight: 400;
   color: #a1b2c4;
   padding-bottom: 5px;
 }
-.educacion_about .edu_row .edu_box .contenido .año i, .educacion_about .edu_row .skills_box .contenido .año i, .educacion_about .skills_row .edu_box .contenido .año i, .educacion_about .skills_row .skills_box .contenido .año i, .skills_about .edu_row .edu_box .contenido .año i, .ejemplo_descripcion p .edu_row .edu_box .contenido .año i, .ejemplo .edu_row .edu_box .contenido .año i, .skills_about .edu_row .skills_box .contenido .año i, .ejemplo_descripcion p .edu_row .skills_box .contenido .año i, .ejemplo .edu_row .skills_box .contenido .año i, .skills_about .skills_row .edu_box .contenido .año i, .ejemplo_descripcion p .skills_row .edu_box .contenido .año i, .ejemplo .skills_row .edu_box .contenido .año i, .skills_about .skills_row .skills_box .contenido .año i, .ejemplo_descripcion p .skills_row .skills_box .contenido .año i, .ejemplo .skills_row .skills_box .contenido .año i {
+.educacion_about .edu_row .edu_box .contenido .año i, .educacion_about .edu_row .skills_box .contenido .año i, .educacion_about .skills_row .edu_box .contenido .año i, .educacion_about .skills_row .skills_box .contenido .año i, .skills_about .edu_row .edu_box .contenido .año i, .ejemplo .edu_row .edu_box .contenido .año i, .skills_about .edu_row .skills_box .contenido .año i, .ejemplo .edu_row .skills_box .contenido .año i, .skills_about .skills_row .edu_box .contenido .año i, .ejemplo .skills_row .edu_box .contenido .año i, .skills_about .skills_row .skills_box .contenido .año i, .ejemplo .skills_row .skills_box .contenido .año i {
   padding-right: 5px;
 }
-.educacion_about .edu_row .edu_box .contenido p, .educacion_about .edu_row .skills_box .contenido p, .educacion_about .skills_row .edu_box .contenido p, .educacion_about .skills_row .skills_box .contenido p, .skills_about .edu_row .edu_box .contenido p, .ejemplo_descripcion p .edu_row .edu_box .contenido p, .ejemplo .edu_row .edu_box .contenido p, .skills_about .edu_row .skills_box .contenido p, .ejemplo_descripcion p .edu_row .skills_box .contenido p, .ejemplo .edu_row .skills_box .contenido p, .skills_about .skills_row .edu_box .contenido p, .ejemplo_descripcion p .skills_row .edu_box .contenido p, .ejemplo .skills_row .edu_box .contenido p, .skills_about .skills_row .skills_box .contenido p, .ejemplo_descripcion p .skills_row .skills_box .contenido p, .ejemplo .skills_row .skills_box .contenido p {
+.educacion_about .edu_row .edu_box .contenido p, .educacion_about .edu_row .skills_box .contenido p, .educacion_about .skills_row .edu_box .contenido p, .educacion_about .skills_row .skills_box .contenido p, .skills_about .edu_row .edu_box .contenido p, .ejemplo .edu_row .edu_box .contenido p, .skills_about .edu_row .skills_box .contenido p, .ejemplo .edu_row .skills_box .contenido p, .skills_about .skills_row .edu_box .contenido p, .ejemplo .skills_row .edu_box .contenido p, .skills_about .skills_row .skills_box .contenido p, .ejemplo .skills_row .skills_box .contenido p {
   margin-bottom: 0;
 }
-.educacion_about .edu_row .skills_box, .educacion_about .skills_row .skills_box, .skills_about .edu_row .skills_box, .ejemplo_descripcion p .edu_row .skills_box, .ejemplo .edu_row .skills_box, .skills_about .skills_row .skills_box, .ejemplo_descripcion p .skills_row .skills_box, .ejemplo .skills_row .skills_box {
+.educacion_about .edu_row .skills_box, .educacion_about .skills_row .skills_box, .skills_about .edu_row .skills_box, .ejemplo .edu_row .skills_box, .skills_about .skills_row .skills_box, .ejemplo .skills_row .skills_box {
   border-left: none;
 }
-.educacion_about .edu_row .skills_box .contenido::before, .educacion_about .skills_row .skills_box .contenido::before, .skills_about .edu_row .skills_box .contenido::before, .ejemplo_descripcion p .edu_row .skills_box .contenido::before, .ejemplo .edu_row .skills_box .contenido::before, .skills_about .skills_row .skills_box .contenido::before, .ejemplo_descripcion p .skills_row .skills_box .contenido::before, .ejemplo .skills_row .skills_box .contenido::before {
+.educacion_about .edu_row .skills_box .contenido::before, .educacion_about .skills_row .skills_box .contenido::before, .skills_about .edu_row .skills_box .contenido::before, .ejemplo .edu_row .skills_box .contenido::before, .skills_about .skills_row .skills_box .contenido::before, .ejemplo .skills_row .skills_box .contenido::before {
   display: none;
 }
 
@@ -336,13 +336,13 @@ header nav .idioma li {
   .educacion_about .edu_row {
     gap: 1px;
   }
-  .edu_box, .educacion_about .edu_row .skills_box, .educacion_about .skills_row .skills_box, .skills_about .edu_row .skills_box, .ejemplo_descripcion p .edu_row .skills_box, .ejemplo .edu_row .skills_box, .skills_about .skills_row .skills_box, .ejemplo_descripcion p .skills_row .skills_box, .ejemplo .skills_row .skills_box {
+  .edu_box, .educacion_about .edu_row .skills_box, .educacion_about .skills_row .skills_box, .skills_about .edu_row .skills_box, .ejemplo .edu_row .skills_box, .skills_about .skills_row .skills_box, .ejemplo .skills_row .skills_box {
     border-left: none !important;
   }
-  .edu_box .contenido, .educacion_about .edu_row .skills_box .contenido, .educacion_about .skills_row .skills_box .contenido, .skills_about .edu_row .skills_box .contenido, .ejemplo_descripcion p .edu_row .skills_box .contenido, .ejemplo .edu_row .skills_box .contenido, .skills_about .skills_row .skills_box .contenido, .ejemplo_descripcion p .skills_row .skills_box .contenido, .ejemplo .skills_row .skills_box .contenido {
+  .edu_box .contenido, .educacion_about .edu_row .skills_box .contenido, .educacion_about .skills_row .skills_box .contenido, .skills_about .edu_row .skills_box .contenido, .ejemplo .edu_row .skills_box .contenido, .skills_about .skills_row .skills_box .contenido, .ejemplo .skills_row .skills_box .contenido {
     margin: 5px !important;
   }
-  .edu_box .contenido::before, .educacion_about .edu_row .skills_box .contenido::before, .educacion_about .skills_row .skills_box .contenido::before, .skills_about .edu_row .skills_box .contenido::before, .ejemplo_descripcion p .edu_row .skills_box .contenido::before, .ejemplo .edu_row .skills_box .contenido::before, .skills_about .skills_row .skills_box .contenido::before, .ejemplo_descripcion p .skills_row .skills_box .contenido::before, .ejemplo .skills_row .skills_box .contenido::before {
+  .edu_box .contenido::before, .educacion_about .edu_row .skills_box .contenido::before, .educacion_about .skills_row .skills_box .contenido::before, .skills_about .edu_row .skills_box .contenido::before, .ejemplo .edu_row .skills_box .contenido::before, .skills_about .skills_row .skills_box .contenido::before, .ejemplo .skills_row .skills_box .contenido::before {
     display: none;
   }
 }
@@ -422,9 +422,19 @@ header nav .idioma li {
     flex-wrap: wrap;
   }
 }
-.ejemplo_descripcion p {
-  margin-top: 100px;
-  font-size: 50px;
+.ejemplo_descripcion h2 {
+  color: #e6d7c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.ejemplo_descripcion .brandbook_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .ejemplo_img {
@@ -438,6 +448,7 @@ header nav .idioma li {
 
 .ejemplo_salir {
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 .ejemplo_salir a {
   color: #e6d7c4;
@@ -457,10 +468,13 @@ header nav .idioma li {
   .ejemplo_img img {
     height: 300px;
   }
-  .ejemplo_descripcion p {
+  .ejemplo_descripcion h2 {
     margin: 10px;
     margin-top: 30px;
     font-size: 25px;
+  }
+  .brandbook_img img {
+    width: 420px;
   }
 }
 #page_contacto {
